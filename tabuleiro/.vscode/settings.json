@@ -1,0 +1,23 @@
+{
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
+    "editor.formatOnSave": true,
+    "omnisharp.json": {
+        "FormattingOptions": {
+            "NewLinesForBracesInTypes": true,
+            "NewLinesForBracesInMethods": true,
+            "NewLinesForBracesInProperties": true,
+            "NewLinesForBracesInAccessors": true,
+            "NewLinesForBracesInAnonymousMethods": true,
+            "NewLinesForBracesInControlBlocks": true,
+            "NewLinesForBracesInAnonymousTypes": true,
+            "NewLinesForBracesInObjectCollectionArrayInitializers": true,
+            "NewLinesForBracesInLambdaExpressionBody": true,
+            "NewLineForElse": true,
+            "NewLineForCatch": true,
+            "NewLineForFinally": true
+        }
+    }
+}
