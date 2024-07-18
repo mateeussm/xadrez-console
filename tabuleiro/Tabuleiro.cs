@@ -22,12 +22,26 @@ namespace tabuleiro
         }
         public void colocarPeca(Peca p, Posicao pos)
         {
-            if(existePeca(pos))
+            if (existePeca(pos))
             {
                 throw new tabuleiroException("Já existe uma peça neste lugar!");
             }
             pecas[pos.linha, pos.coluna] = p;
             p.posicao = pos;
+        }
+        public Peca retirarPeca(Posicao pos)
+        {
+            if (peca(pos)== null)
+            {
+                return null;
+            }
+            else
+            {
+                Peca aux = peca(pos);
+                aux.posicao=null;
+                pecas[pos.linha,pos.coluna] = null;
+                return aux;
+            }
         }
         public bool existePeca(Posicao pos)
         {
