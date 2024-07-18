@@ -10,7 +10,7 @@ namespace xadrez_console
             try
             {
                 PartidaDeXadrez partida = new PartidaDeXadrez();
-                Console.WriteLine();
+                Tela.imprimirTabuleiro(partida.tab);
 
             }
             catch (tabuleiroException ex)
