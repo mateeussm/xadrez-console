@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\xadrez-console\\xadrez-console.csproj": {}
+    "c:\\Projetos\\xadrez-console\\xadrez-console.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\xadrez-console\\xadrez-console.csproj": {
+    "c:\\Projetos\\xadrez-console\\xadrez-console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\xadrez-console\\xadrez-console.csproj",
+        "projectUniqueName": "c:\\Projetos\\xadrez-console\\xadrez-console.csproj",
         "projectName": "xadrez-console",
-        "projectPath": "C:\\Projetos\\xadrez-console\\xadrez-console.csproj",
+        "projectPath": "c:\\Projetos\\xadrez-console\\xadrez-console.csproj",
         "packagesPath": "C:\\Users\\mateus.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\xadrez-console\\obj\\",
+        "outputPath": "c:\\Projetos\\xadrez-console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mateus.silva\\AppData\\Roaming\\NuGet\\NuGet.Config"

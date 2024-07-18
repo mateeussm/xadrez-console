@@ -7,6 +7,7 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
+            try{
             Tabuleiro tab = new Tabuleiro(8, 8);
             tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 0));
             tab.colocarPeca(new Cavalo(tab, Cor.Preta), new Posicao(0, 1));
@@ -16,12 +17,16 @@ namespace xadrez_console
             tab.colocarPeca(new Bispo(tab, Cor.Preta), new Posicao(0, 5));
             tab.colocarPeca(new Cavalo(tab, Cor.Preta), new Posicao(0, 6));
             tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 7));
-            for(int c = 0;c < tab.colunas;c++)
+            for (int c = 0; c < tab.colunas; c++)
             {
                 tab.colocarPeca(new Peao(tab, Cor.Preta), new Posicao(1, c));
             }
             Tela.imprimirTabuleiro(tab);
-
+            }
+            catch (tabuleiroException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
