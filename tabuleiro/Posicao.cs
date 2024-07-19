@@ -4,7 +4,7 @@ namespace tabuleiro
     {
         public int linha { get; set; }
         public int coluna { get; set; }
-
+        //Construtor da Posicao recebendo linha e coluna
         public Posicao(int linha, int coluna)
         {
             this.linha = linha;
@@ -12,10 +12,7 @@ namespace tabuleiro
         }
         override public string ToString()
         {
-            return 
-            linha
-            + "," 
-            + coluna;
+            return linha + "," + coluna;
         }
     }
 }
