@@ -1,7 +1,7 @@
 C:\Projetos\xadrez-console\bin\Debug\net8.0\xadrez-console.exe
+C:\Projetos\xadrez-console\bin\Debug\net8.0\xadrez-console.dll
 C:\Projetos\xadrez-console\bin\Debug\net8.0\xadrez-console.deps.json
 C:\Projetos\xadrez-console\bin\Debug\net8.0\xadrez-console.runtimeconfig.json
-C:\Projetos\xadrez-console\bin\Debug\net8.0\xadrez-console.dll
 C:\Projetos\xadrez-console\bin\Debug\net8.0\xadrez-console.pdb
 C:\Projetos\xadrez-console\obj\Debug\net8.0\xadrez-console.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projetos\xadrez-console\obj\Debug\net8.0\xadrez-console.AssemblyInfoInputs.cache

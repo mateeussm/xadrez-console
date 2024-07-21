@@ -20,17 +20,31 @@ namespace xadrez
 
             Posicao pos = new Posicao(0, 0);
 
-            //acima
-            int count = 1;
-            pos.definirValores(posicao.linha - 1, posicao.coluna);
+            //acima 2 casas
+            int count = 0;
+            if (cor == Cor.Branca)
+            {
+                pos.definirValores(posicao.linha - 1, posicao.coluna);
+            }
+            else
+            {
+                pos.definirValores(posicao.linha + 1, posicao.coluna);
+            }
             while (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.linha, pos.coluna] = true;
-                if (tab.peca(pos) != null && tab.peca(pos).cor != cor || count >= 2)
+                if (tab.peca(pos) != null && tab.peca(pos).cor != cor || count >= 1)
                 {
                     break;
                 }
-                pos.linha -= 1;
+                if (cor == Cor.Branca)
+                {
+                    pos.linha -= 1;
+                }
+                else
+                {
+                    pos.linha += 1;
+                }
                 count += 1;
             }
             return mat;
