@@ -29,7 +29,7 @@ namespace xadrez
                 {
                     break;
                 }
-                for (int i = pos.linha; i <= tab.linhas; i--)
+                for (int i = pos.linha; i <= tab.linhas; i++)
                 {
                     for (int j = posicao.coluna; j <= tab.colunas; j++)
                     {
