@@ -15,7 +15,7 @@ namespace xadrez_console
                 {
                     try
                     {
-                        Console.Clear();
+                         Console.Clear();
                         Tela.imprimirPartida(partida);
 
                         Console.Write("Origem :");
@@ -24,7 +24,7 @@ namespace xadrez_console
 
                         bool[,] posicoesPossiveis = partida.tab.peca(origem).movimentosPossiveis();
 
-                        Console.Clear();
+                         Console.Clear();
                         Tela.imprimirTabuleiro(partida.tab, posicoesPossiveis);
                         Console.WriteLine();
                         Console.Write("Destino: ");
